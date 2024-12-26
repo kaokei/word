@@ -33,36 +33,33 @@
           <ul class="menu menu-horizontal p-0">
             <!-- Navbar menu content here -->
             <li>
-              <NuxtLink class="btn btn-ghost" to="/p/repl">REPL</NuxtLink>
+              <NuxtLink class="btn btn-ghost" to="/repl">REPL</NuxtLink>
             </li>
             <li>
-              <NuxtLink class="btn btn-ghost" to="/p/gzip">GZIP</NuxtLink>
+              <NuxtLink class="btn btn-ghost" to="/gzip">GZIP</NuxtLink>
             </li>
             <li>
-              <NuxtLink class="btn btn-ghost" to="/p/urlcode"
+              <NuxtLink class="btn btn-ghost" to="/urlcode"
                 >URL编解码</NuxtLink
               >
             </li>
             <li>
-              <NuxtLink class="btn btn-ghost" to="/p/base64code"
+              <NuxtLink class="btn btn-ghost" to="/base64code"
                 >Base64编解码</NuxtLink
               >
             </li>
             <li>
-              <NuxtLink class="btn btn-ghost" to="/p/jsonlint"
+              <NuxtLink class="btn btn-ghost" to="/jsonlint"
                 >JSON格式化</NuxtLink
               >
             </li>
             <li>
-              <NuxtLink class="btn btn-ghost" to="/p/jslint">JS格式化</NuxtLink>
+              <NuxtLink class="btn btn-ghost" to="/jslint">JS格式化</NuxtLink>
             </li>
             <li>
-              <NuxtLink class="btn btn-ghost" to="/p/csslint"
+              <NuxtLink class="btn btn-ghost" to="/csslint"
                 >CSS格式化</NuxtLink
               >
-            </li>
-            <li>
-              <NuxtLink class="btn btn-ghost" to="/p/about">关于</NuxtLink>
             </li>
           </ul>
         </div>
@@ -79,43 +76,38 @@
       <ul class="menu min-h-full w-80 bg-white p-4">
         <!-- Sidebar content here -->
         <li>
-          <NuxtLink class="btn btn-ghost justify-start" to="/p/repl"
+          <NuxtLink class="btn btn-ghost justify-start" to="/repl"
             >REPL</NuxtLink
           >
         </li>
         <li>
-          <NuxtLink class="btn btn-ghost justify-start" to="/p/gzip"
+          <NuxtLink class="btn btn-ghost justify-start" to="/gzip"
             >GZIP</NuxtLink
           >
         </li>
         <li>
-          <NuxtLink class="btn btn-ghost justify-start" to="/p/urlcode"
+          <NuxtLink class="btn btn-ghost justify-start" to="/urlcode"
             >URL编解码</NuxtLink
           >
         </li>
         <li>
-          <NuxtLink class="btn btn-ghost justify-start" to="/p/base64code"
+          <NuxtLink class="btn btn-ghost justify-start" to="/base64code"
             >Base64编解码</NuxtLink
           >
         </li>
         <li>
-          <NuxtLink class="btn btn-ghost justify-start" to="/p/jsonlint"
+          <NuxtLink class="btn btn-ghost justify-start" to="/jsonlint"
             >JSON格式化</NuxtLink
           >
         </li>
         <li>
-          <NuxtLink class="btn btn-ghost justify-start" to="/p/jslint"
+          <NuxtLink class="btn btn-ghost justify-start" to="/jslint"
             >JS格式化</NuxtLink
           >
         </li>
         <li>
-          <NuxtLink class="btn btn-ghost justify-start" to="/p/csslint"
+          <NuxtLink class="btn btn-ghost justify-start" to="/csslint"
             >CSS格式化</NuxtLink
-          >
-        </li>
-        <li>
-          <NuxtLink class="btn btn-ghost justify-start" to="/p/about"
-            >关于</NuxtLink
           >
         </li>
       </ul>
